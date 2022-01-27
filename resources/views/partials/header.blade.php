@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1"><a href="{{route('home')}}">Comics</a></span>
+          <span class="navbar-brand mb-0 h1"><a href="{{ route('home') }}">Comics</a></span>
         </div>
       </nav>
 </body>
