@@ -7,8 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div><H1><a href="{{route('home')}}">TITLE</a></H1></div>
-    </nav>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1"><a href="{{route('home')}}">Comics</a></span>
+        </div>
+      </nav>
 </body>
 </html>
